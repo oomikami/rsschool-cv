@@ -45,6 +45,11 @@ ul {
     list-style: none;
 }
 
+nav {
+    height: 80px;
+    padding: auto;
+}
+
 nav ul {
     display: flex;
     flex-direction: row;
