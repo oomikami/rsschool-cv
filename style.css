@@ -61,7 +61,7 @@ header nav ul li {
     display: flex;
 }
 
-header nav ul li a {
+a {
     text-decoration: none;
     color: var(--color-text);
     font-weight: 400;
@@ -69,6 +69,6 @@ header nav ul li a {
     cursor: pointer;
 }
 
-header nav ul li a:hover {
+a:hover {
     color: var(--color-accent);
 }
