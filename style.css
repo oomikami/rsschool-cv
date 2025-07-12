@@ -51,4 +51,10 @@ header{
 header nav ul {
     margin: 0;
     padding: 0;
+    display: flex;
+    gap: 32px;
+}
+
+header nav ul li {
+    list-style: none;
 }
