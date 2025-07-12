@@ -73,9 +73,9 @@ a:hover {
     color: var(--color-accent);
 }
 
-.about-me {
+#about-me {
     padding-top: 120px;
     width: 800px;
-    padding-left: auto;
-    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
