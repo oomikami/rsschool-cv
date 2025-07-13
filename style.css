@@ -182,6 +182,9 @@ hr {
     list-style: none;
     padding: 0;
     flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
 }
 
 #languages h2 {
