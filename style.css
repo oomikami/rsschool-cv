@@ -84,8 +84,7 @@ a:hover {
 
 #about-me strong {
     font-weight: 700;
-    color: #c20606;
-    text-decoration: underline;
+    color: var(--color-accent);
 }
 
 #skills {
@@ -106,6 +105,7 @@ a:hover {
 }
 
 #work-expirience {
+    width: 800px;
     padding-top: 120px;
     padding-bottom: 120px;
     width: 800px;
@@ -121,4 +121,14 @@ a:hover {
     flex-direction: row;
     align-items: flex-start;
     margin-bottom: 40px;
+}
+
+.job ul {
+    list-style: none;
+    padding: 0;
+}
+
+.job p {
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
