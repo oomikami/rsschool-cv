@@ -161,3 +161,20 @@ hr {
     border: none;
     border-bottom: 1px solid var(--color-accent);
 }
+
+#languages {
+    width: 800px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.language-name {
+    font-weight: 700;
+    color: var(--color-accent);
+}
