@@ -100,7 +100,7 @@ a:hover {
 }
 
 #skills h2 {
-    width: 560px;
+    width: 200px;
     
 }
 
@@ -125,10 +125,10 @@ a:hover {
 .job {
     width: 100%;
     max-width: 800px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 80px;
+    margin-top: 40px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -147,7 +147,7 @@ a:hover {
 }
 
 .position {
-    width: 560px;
+    width: 200px;
     flex-shrink: 0;
 }
 
