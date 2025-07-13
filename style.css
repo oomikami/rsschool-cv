@@ -100,8 +100,7 @@ a:hover {
 }
 
 #skills h2 {
-    width: 200px;
-    
+    width: 200px;  
 }
 
 #skills ul {
@@ -178,3 +177,14 @@ hr {
     font-weight: 700;
     color: var(--color-accent);
 }
+
+#languages ul {
+    list-style: none;
+    padding: 0;
+    flex-grow: 1;
+}
+
+#languages h2 {
+    width: 200px;
+}
+
