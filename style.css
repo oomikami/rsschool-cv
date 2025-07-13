@@ -107,6 +107,7 @@ a:hover {
 #skills ul {
     list-style: none;
     padding: 0;
+    flex-grow: 1;
 }
 
 #work-expirience {
@@ -124,13 +125,14 @@ a:hover {
 .job {
     width: 100%;
     max-width: 800px;
-    margin-bottom: 0;
+    margin-bottom: 80px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 120px;
+    margin-top: 80px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    gap: 32px;
 }
 
 
@@ -146,13 +148,9 @@ a:hover {
 
 .position {
     width: 560px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
+    flex-shrink: 0;
 }
 
-.position p {
-    width: 100%;
-    margin: 0;
+.position-details {
+    flex-grow: 1;
 }
