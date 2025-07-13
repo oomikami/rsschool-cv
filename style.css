@@ -2,6 +2,7 @@
     --color-bg: #fff;
     --color-text: #000;
     --color-accent: #969696;
+
 }
 
 * {
@@ -35,7 +36,6 @@ h1 {
 h2 {
     font-size: 28px;
 }
-
 
 h3 {
     font-size: 24px;
@@ -290,3 +290,12 @@ hr {
     display: flex;
     gap: 16px;
 }
+=======
+ul {
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
