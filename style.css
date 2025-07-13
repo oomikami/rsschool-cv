@@ -15,7 +15,7 @@ html {
 }
 
 body {
-    font-family: 'Manrope', sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
     background-color: var(--color-bg);
     color: var(--color-text);
     line-height: 1.6;
@@ -31,6 +31,7 @@ h1 {
     font-size: 32px;
 }
 
+
 h2 {
     font-size: 28px;
 }
@@ -40,6 +41,7 @@ h3 {
     font-size: 24px;
 }
 
+
 header{
     height: 80px;
     border-bottom: 1px solid var(--color-accent);
@@ -48,6 +50,10 @@ header{
     justify-content: center;
     align-items: center;
     padding: 0 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: var(--color-bg);
 }
 
 header nav ul {
@@ -76,10 +82,18 @@ a:hover {
 
 #about-me {
     padding-top: 120px;
-    padding-bottom: 120px;
+    padding-bottom: 60px;
     width: 800px;
     margin-left: auto;
     margin-right: auto;
+}
+
+#about-me .profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 16px;
+    object-fit: cover;
 }
 
 #about-me strong {
@@ -115,11 +129,12 @@ a:hover {
     padding-bottom: 120px;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
+    /*display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 32px;
+    gap: 32px;*/
 }
+
 
 .job {
     width: 100%;
@@ -127,7 +142,7 @@ a:hover {
     margin-bottom: 40px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 40px;
+    margin-top: 80px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -138,6 +153,10 @@ a:hover {
 .job ul {
     list-style: none;
     padding: 0;
+}
+
+.job ul li {
+    margin-bottom: 16px;
 }
 
 .job .position-details p {
@@ -163,8 +182,8 @@ hr {
 
 #languages {
     width: 800px;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -185,9 +204,89 @@ hr {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    gap: 32px
 }
 
 #languages h2 {
     width: 200px;
 }
 
+#education {
+    width: 800px;
+    padding-top: 0;
+    padding-bottom: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#education .education-list {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    
+}
+
+
+#education .education-item {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 16px;
+    border-bottom: 1px solid var(--color-accent);
+    padding-bottom: 16px;
+}
+
+#education .education-item .education-dates {
+    width: 240px;
+    flex-shrink: 0;
+}
+
+#education .education-item .education-status {
+    width: 160px;
+    flex-shrink: 0;
+}
+
+#education .education-item .education-skill {
+    width: 200px;
+    flex-shrink: 0;
+}
+
+#contacts {
+    width: 800px;
+    padding-top: 0;
+    padding-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+#contacts .footer-content {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+#contacts ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+}
