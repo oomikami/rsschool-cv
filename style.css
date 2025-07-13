@@ -147,4 +147,13 @@ a:hover {
 
 .position {
     width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.position p {
+    width: 100%;
+    margin: margin: 0;
 }
