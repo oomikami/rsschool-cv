@@ -118,7 +118,7 @@ a:hover {
 
 .job {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row;
     align-items: flex-start;
     margin-bottom: 40px;
 }
