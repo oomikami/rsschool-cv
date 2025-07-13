@@ -1,6 +1,8 @@
 :root {
     --color-bg: #fff;
     --color-text: #000;
+    --color-accent: #969696;
+
 }
 
 * {
@@ -14,7 +16,7 @@ html {
 }
 
 body {
-    font-family: 'Manrope', sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
     background-color: var(--color-bg);
     color: var(--color-text);
     line-height: 1.6;
@@ -30,6 +32,7 @@ h1 {
     font-size: 32px;
 }
 
+
 h2 {
     font-size: 28px;
 }
@@ -38,6 +41,256 @@ h3 {
     font-size: 24px;
 }
 
+
+header{
+    height: 80px;
+    border-bottom: 1px solid var(--color-accent);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: var(--color-bg);
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 32px;
+}
+
+header nav ul li {
+    list-style: none;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-text);
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+a:hover {
+    color: var(--color-accent);
+}
+
+#about-me {
+    padding-top: 120px;
+    padding-bottom: 60px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about-me .profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 16px;
+    object-fit: cover;
+}
+
+#about-me strong {
+    font-weight: 700;
+    color: var(--color-accent);
+}
+
+#skills {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 32px;
+}
+
+#skills h2 {
+    width: 200px;  
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+    flex-grow: 1;
+}
+
+#work-expirience {
+    width: 800px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    /*display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;*/
+}
+
+
+.job {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+
+.job ul {
+    list-style: none;
+    padding: 0;
+}
+
+.job ul li {
+    margin-bottom: 16px;
+}
+
+.job .position-details p {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.position {
+    width: 200px;
+    flex-shrink: 0;
+}
+
+.position-details {
+    flex-grow: 1;
+}
+
+hr {
+    width: 800px;
+    margin: 0 auto;
+    border: none;
+    border-bottom: 1px solid var(--color-accent);
+}
+
+#languages {
+    width: 800px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.language-name {
+    font-weight: 700;
+    color: var(--color-accent);
+}
+
+#languages ul {
+    list-style: none;
+    padding: 0;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 32px
+}
+
+#languages h2 {
+    width: 200px;
+}
+
+#education {
+    width: 800px;
+    padding-top: 0;
+    padding-bottom: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#education .education-list {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    
+}
+
+
+#education .education-item {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 16px;
+    border-bottom: 1px solid var(--color-accent);
+    padding-bottom: 16px;
+}
+
+#education .education-item .education-dates {
+    width: 240px;
+    flex-shrink: 0;
+}
+
+#education .education-item .education-status {
+    width: 160px;
+    flex-shrink: 0;
+}
+
+#education .education-item .education-skill {
+    width: 200px;
+    flex-shrink: 0;
+}
+
+#contacts {
+    width: 800px;
+    padding-top: 0;
+    padding-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+#contacts .footer-content {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+#contacts ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+}
+=======
 ul {
     margin: 0;
 }
@@ -45,3 +298,4 @@ ul {
 li {
     list-style: none;
 }
+
