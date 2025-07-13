@@ -125,15 +125,15 @@ a:hover {
 .job {
     width: 100%;
     max-width: 800px;
-    margin: 0 auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
 }
 
-.job:first-of-type {
-    margin-top: 120px;
-}
 
 .job ul {
     list-style: none;
