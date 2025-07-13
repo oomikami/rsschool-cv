@@ -35,6 +35,7 @@ h2 {
     font-size: 28px;
 }
 
+
 h3 {
     font-size: 24px;
 }
@@ -77,6 +78,18 @@ a:hover {
     padding-top: 120px;
     padding-bottom: 120px;
     width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#skills {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     margin-left: auto;
     margin-right: auto;
 }
